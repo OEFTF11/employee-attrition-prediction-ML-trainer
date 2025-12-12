@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Virtual environment
+venv/
+
+# Env variables
+.env
+*.env
+
+# Archives
+*.zip
+
+# IDE files
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual env
+venv/
+*/venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Word documents
+*.docx
+
+# Ignore temp files
+*.tmp
+~*
+
+# Ignore accidental CSV files except the cleaned dataset in /data
+*.csv
+!data/*.csv
