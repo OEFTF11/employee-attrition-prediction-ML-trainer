@@ -1,0 +1,4 @@
+model,cv_pr_auc,cv_roc_auc,best_params
+Gradient Boosting,0.5649460638343884,0.8022205085857237,"{""classifier__learning_rate"": 0.1, ""classifier__max_depth"": 2, ""classifier__n_estimators"": 100}"
+Random Forest,0.5540912611465004,0.8110323108185785,"{""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 4, ""classifier__n_estimators"": 200}"
+Logistic Regression,0.5415074921964032,0.7997012605348166,"{""classifier__C"": 0.1}"

@@ -4,9 +4,9 @@ __pycache__/
 *.pyo
 *.pyd
 *.pkl
-*.joblib
 
 # Virtual environment
+.venv/
 venv/
 
 # Env variables
@@ -45,3 +45,11 @@ __pycache__/
 # Ignore accidental CSV files except the cleaned dataset in /data
 *.csv
 !data/*.csv
+!reports/*.csv
+
+# Generated local scratch artifacts
+*.log
+.pytest_cache/
+.ruff_cache/
+.matplotlib-cache/
+reports/figures/*.svg

@@ -1,0 +1,29 @@
+{
+  "trained_at_utc": "2026-08-31T07:54:27.401583+00:00",
+  "selected_model": "Gradient Boosting",
+  "selection_metric": "5-fold cross-validated PR-AUC",
+  "decision_threshold": 0.13,
+  "test_metrics": {
+    "accuracy": 0.6836734693877551,
+    "precision": 0.28703703703703703,
+    "recall": 0.6595744680851063,
+    "f1": 0.4,
+    "roc_auc": 0.7606167628564044,
+    "pr_auc": 0.44582322994246854
+  },
+  "features": [
+    "Age",
+    "MonthlyIncome",
+    "DistanceFromHome",
+    "YearsAtCompany",
+    "JobSatisfaction",
+    "BusinessTravel",
+    "Department",
+    "JobRole",
+    "MaritalStatus",
+    "OverTime"
+  ],
+  "training_rows": 1176,
+  "test_rows": 294,
+  "random_state": 42
+}
